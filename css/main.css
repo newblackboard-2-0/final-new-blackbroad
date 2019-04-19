@@ -1,0 +1,227 @@
+
+body {
+  background-color:  #ffffff;
+  color:  #000000;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  font-family: 'Open Sans', calibri, sans-serif;
+  letter-spacing: 2px;
+  font-size: 10pt;
+}
+
+h1 {font-size: 24px;
+  font-family: 'Open Sans', calibri, sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+h3 {font-size: 11px;
+  font-weight: 500;
+}
+
+h4 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+
+
+.logo {
+  text-align:left;
+  margin-top: 1em;
+
+}
+
+
+
+.grid-logo {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 1em;
+
+}
+
+.grid-menu2 {
+  display: block;
+  text-align:right;
+}
+
+
+.grid-menu {
+  margin-top: 1em;
+  text-align: right;
+}
+
+.grid-title {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 8em;
+  text-align:left;
+  margin-top: 2em;
+
+}
+
+.grid-title2 {
+  text-align:left;
+  margin-top: 2em;
+
+}
+
+
+
+}
+
+.note {
+
+background-color: lightgray;
+margin: 1em;
+padding: 0.5em;
+width: 416px;
+
+
+
+}
+
+.allnotes_btn {
+    text-align: right;
+    margin-bottom: 2em;
+    padding-right: 0.5em;
+
+
+}
+
+
+
+.folders {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin-left: 1em;
+    padding-right: 0em;
+}
+
+.folder {
+    background-color: lightgray;
+    padding: 1em;
+    height: 43vw;
+    position: relative;
+}
+
+.textfolder {
+    padding-top: 4em;
+
+
+}
+
+
+
+
+.notesbtns {
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 416px;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+
+}
+
+.lowerbtns {
+    text-align: right;
+}
+
+
+.studnotes {
+    width: 416px;
+    margin-top: 2em;
+
+
+}
+
+.gennotes {
+    width: 416px;
+    margin-left: 1em;
+
+}
+
+.cssbtn {
+    background-color: blueviolet !important;
+    color: white;
+}
+
+
+
+.htmlbtn {
+    background-color: purple !important;
+    color: white;
+
+}
+
+.javabtn {
+    background-color: plum !important;
+    color: white;
+
+}
+.asignmentsbtn {
+    background-color: darkorchid !important;
+    color: white;
+
+}
+
+.importantbtn {
+    background-color: lightpink !important;
+    color: white;
+}
+
+.notefolder {
+    background-color: lightgray;
+    text-align: left;
+    margin: 1em;
+
+}
+
+
+.dots {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: hsl(150, 58%, 80%);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: right;
+  }
+
+.filters input {
+    display: none;
+    padding: 1em;
+
+}
+
+.btnstyle {
+
+padding: 0.3em;
+border-color: black;
+
+}
+
+  @media screen and (min-width: 700px) {
+
+    .folders{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+  }

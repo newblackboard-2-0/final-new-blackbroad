@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+body {
+  background-color:  #ffffff;
+  color:  #000000;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+
+
+  font-family: 'Open Sans', calibri, sans-serif;
+  letter-spacing: 2px;
+  font-size: 10pt;
+}
+
+h1 {
+  font-size: 24px;
+  /* font-weight: 600; */
+}
+
+h2 {font-size: 11px;
+}
+
+h3 {
+  font-size: 11px;
+  /* font-weight: 900; */
+}
+
+h4 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+
+
+.logo {
+  text-align:left;
+  margin-top: 1em;
+
+}
+
+
+
+.grid-logo {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 1em;
+
+}
+
+.grid-menu2 {
+  display: block;
+  text-align:right;
+}
+
+
+.grid-menu {
+  margin-top: 1em;
+  text-align: right;
+}
+
+.grid-title {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 8em;
+  text-align:left;
+  margin-top: 2em;
+
+}
+
+.grid-title2 {
+  text-align:left;
+  margin-top: 2em;
+
+}
+
+
+.notesbtns {
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 416px;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.folders {
+
+    display: grid;
+    grid-gap: 1em;
+    margin-left: 1em;
+    padding-right: 0em;
+}
+
+.folder {
+    background-color: lightgray;
+    text-align: center;
+    height: 43vw;
+    position: relative;
+}
+
+.textfolder {
+    padding-top: 4em;
+
+
+}
+
+
+.note {
+
+background-color:lightgray;
+margin: 0em;
+padding: 0.5em;
+width: 416px;
+
+
+
+}
+
+.allnotes_btn {
+    text-align: right;
+    background-color: lightgrey;
+    padding-right: 0.5em;
+    width: 424px;
+
+}
+
+.lowerbtns {
+    text-align: center;
+}
+
+
+.studnotes {
+    width: 416px;
+    margin: 1em;
+
+
+}
+
+.gennotes {
+    width: 416px;
+    margin-left: 1em;
+
+}
+
+.cssbtn {
+  background-color: blueviolet !important;
+  color: white;
+  padding: 0.3em;
+}
+
+
+
+.htmlbtn {
+  background-color: purple !important;
+  color: white;
+  padding: 0.3em;
+
+}
+
+.jsbtn {
+  background-color: plum !important;
+  color: white;
+  padding: 0.3em;
+
+}
+
+.assignmentsbtn {
+  background-color: darkorchid !important;
+  color: white;
+  padding: 0.3em;
+
+}
+
+.importantbtn {
+  background-color: lightpink !important;
+  color: white;
+  padding: 0.3em;
+}
+
+
+
+
+
+/* Search */
+
+.search-bar {
+  margin-top: 1em;
+  width: 100%;
+  border: 1px solid #C6C6C6;
+  padding: 4px;
+  height: 20px;
+  outline: none;
+  color: #000000;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+  /* Folders */
+
+  .folders {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin-top: 2em;
+
+}
+
+.column-align {
+  text-align: center;
+}
+
+
+.image {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   background-image: url("../img/folder-03.png");
+   background-repeat: no-repeat;
+   color:white;
+
+
+
+}
+.image p{
+  padding-top:7em;
+  padding-left: 4.3em;
+}
+.filters input {
+    display: none;
+    padding: 1em;
+
+}
+
+
+@media screen and (min-width: 700px) {
+
+  .folders {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin-top: 2em;
+
+}
